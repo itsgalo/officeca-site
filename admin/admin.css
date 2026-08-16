@@ -1,0 +1,61 @@
+/* admin-only styles, layered on style.css */
+
+#admin {
+  display: grid;
+  grid-template-columns: minmax(360px, 30rem) 1fr;
+  height: calc(100vh - var(--bar-h));
+  gap: 1px;
+  background: var(--line);
+}
+#admin > * { background: var(--paper); min-height: 0; }
+
+#editor { overflow-y: auto; }
+#preview iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+#nav button {
+  font: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+  background: none;
+  border: 0;
+  color: var(--faint);
+  cursor: pointer;
+  padding: 0;
+}
+#nav button:hover, #nav button:focus-visible { color: var(--ink); }
+#nav button.active { color: var(--accent); }
+#nav button.act { color: var(--ink); border-bottom: 1px solid var(--ink); }
+#nav nav { align-items: center; }
+
+.panel { display: flex; flex-direction: column; }
+.panel > * { padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--line); }
+
+.a-row { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+.a-slot { display: flex; flex-direction: column; gap: 0.5rem; }
+.a-slot .a-row, .a-slot textarea { padding: 0; border-bottom: 0; }
+
+.a-field { display: flex; gap: 0.5rem; align-items: center; }
+.a-field > span { color: var(--faint); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; }
+
+input, select, textarea, .panel button {
+  font: inherit;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 0.25rem 0.4rem;
+}
+input[type="checkbox"] { accent-color: var(--accent); }
+input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: -1px; }
+
+textarea { width: 100%; font-size: 12px; line-height: 1.45; resize: vertical; }
+textarea.bad { border-color: #c03426; outline-color: #c03426; }
+
+.panel button { cursor: pointer; }
+.panel button:hover { border-color: var(--ink); }
+
+@media (max-width: 900px) {
+  #admin { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
+}
+.a-id { color: var(--faint); font-size: 11px; margin-right: auto; }
+.panel button:disabled { opacity: 0.35; cursor: default; }
+.panel button:disabled:hover { border-color: var(--line); }

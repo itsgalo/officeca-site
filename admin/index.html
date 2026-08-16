@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QUAD/OS admin</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header id="nav">
+    <span class="nav-title">QUAD/OS — admin</span>
+    <nav>
+      <button data-tab="pages">pages</button>
+      <button data-tab="layouts">layouts</button>
+      <button data-tab="projects">projects</button>
+      <button data-tab="site">site</button>
+      <button id="apply" class="act">apply changes</button>
+      <button id="export" class="act">export json</button>
+      <button id="discard" class="act">discard draft</button>
+    </nav>
+  </header>
+  <main id="admin">
+    <section id="editor"></section>
+    <section id="preview"><iframe src="../index.html?draft=1" title="preview"></iframe></section>
+  </main>
+  <script src="admin.js"></script>
+</body>
+</html>

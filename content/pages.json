@@ -1,0 +1,203 @@
+{
+  "home": {
+    "title": "Home",
+    "layout": "quad",
+    "slots": [
+      {
+        "label": "log",
+        "modules": [
+          {
+            "type": "widget-clock"
+          },
+          {
+            "type": "typing",
+            "text": "current works in progress...",
+            "speed": 12
+          },
+          {
+            "type": "list",
+            "items": [
+              "5x10 house, a residence in CO",
+              "signals, an installation in IL"
+            ]
+          },
+          {
+            "type": "typing",
+            "text": "recent news...",
+            "speed": 18
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "text": "At Bethel Woods’s BuildFest students and faculty work “convivially” with emerging technology",
+                "href": "https://www.archpaper.com/2025/09/buildfest-students-faculty-work-convivially/"
+              },
+              {
+                "text": "The 2024 Bethel Woods Art and Architecture Festival invites students to Build Community, Build Creatively, Build Fest",
+                "href": "https://www.archpaper.com/2024/09/2024-bethel-woods-art-architecture-festival/"
+              },
+              {
+                "text": "A new AR-guided collection of essays defines “Purpleness” in architecture",
+                "href": "https://www.archpaper.com/2024/06/ar-guided-collection-essays-purpleness-architecture/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "info",
+        "modules": [
+          {
+            "type": "kv",
+            "pairs": [
+              [
+                "name",
+                "office ca"
+              ],
+              [
+                "services",
+                "architecture, interiors, installations, public art, creative apps, design research"
+              ],
+              [
+                "legal",
+                "limited liability company"
+              ],
+              [
+                "place",
+                "lexington, KY"
+              ],
+              [
+                "since",
+                "2014"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "label": "media",
+        "modules": [
+          {
+            "type": "slideshow",
+            "interval": 3000,
+            "caption": "projects, 2025–26",
+            "images": [
+              "/projects/images/26_01_00.jpg",
+              "/projects/images/26_01_05.jpg",
+              "/projects/images/25_01_03.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "archive",
+        "modules": [
+          {
+            "type": "projects-list",
+            "sort": "year"
+          }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "About",
+    "layout": "triptych",
+    "slots": [
+      {
+        "label": "about",
+        "modules": [
+          {
+            "type": "paragraph",
+            "text": "Our relationship to the cosmos could be said to be a geometric one. Meaning that throughout history, most objective ontological research has involved vectors, positions, and the mathematics of relational systems. Thus, if one were to seek out a single truth out of the messiness of human existence, geometry might be a good place to start."
+          },
+          {
+            "type": "paragraph",
+            "text": "Within architecture we can assume that geometry is indispensable to the discipline. But it also has a mystical autonomy, which allows it to flutter in and out of discussions on form, shape, forces, perception, and function. Despite all its supposed veracity, geometry’s inherent mysticism often yields extremely non-objective narratives (think: Malevich’s squares or Hejduk’s diamonds). And so as architects we are tasked with revealing this burden: that orthography ≠ objectivity."
+          },
+          {
+            "type": "paragraph",
+            "text": "office ca is a design research collaborative led by Galo Canizares and Stephanie Sang Delgado that examines this paradox. We posit that a search for absolute truths often involves doubt and speculation, and so we exaggerate these conditions to closely examine their role in the production of cultural narratives. Our work therefore recalls at times the mythological (doubt), and other times the science-fictional (speculation). In these contexts, examining geometry is our way of reconciling human beings’ evolving relationships to virtual worlds, modes of communication/representation, and mutable objects. Some projects trap users in oversized diagrams as a means of revealing the mechanisms of virtual space. Others manifest themselves as live simulations or war-game scenarios. Regardless of the format, our objective is always to highlight hidden oddities or curiosities that constitute our daily interactions with spaces, and objects. We make material things, which we smash, inflate, knock over. We write down thoughts about fictional worlds and alternate realities/timelines/futures. We research curious objects, such as software, duct tape, mylar, and bean bags. We are fascinated by the absurdities of constraints, codes (in every sense of the word), and histories of architecture. Through the act of designing and making, we strive to continue a dialogue about physical/virtual realities, distant memories, and weird hallucinations."
+          }
+        ]
+      },
+      {
+        "label": "bios",
+        "modules": [
+          {
+            "type": "image",
+            "src": "content/profile.jpg",
+            "caption": ""
+          },
+          {
+            "type": "paragraph",
+            "text": "Galo Canizares is a designer, writer, and educator. He holds an M.Arch from the Massachusetts Institute of Technology. Currently, his ongoing research concerns the softwarization of architectural media after the rise of digital culture. Galo is an Assistant Professor at the University of Kentucky College of Design."
+          },
+          {
+            "type": "paragraph",
+            "text": "Stephanie Sang Delgado is a registered architect (OH) and was a Teaching Fellow at the School of Architecture at Taliesin. She received her Master of Architecture from the Knowlton School at Ohio State where she was awarded the Graduate Enrichment Fellowship and Architecture Research Travel Award. Stephanie is an Assistant Professor at the School of Public Architecture at Kean University's Michael Graves College of Design."
+          },
+          {
+            "type": "paragraph",
+            "text": "past collaborators: Fabio Castellanos / Alexa Acuna / Cole Anderson / Shekoufeh Golnezhad / Nicole Potts / Bryant Phares / Clark Sabula / Ali Sandhu / Christina Tefend / Sadie Webb / Daniel Yontz / Rachel Ghindea / Theo Morrow / Garrett Schultz / Becca Schalip / Jack Raymond / Adeeba Arastu / Aaron Payne / Moones Mirbeygi / Jose Canizares / Enio Dajko / Ekin Erar / Eric Randall Morris / Kyle Altman"
+          }
+        ]
+      },
+      {
+        "label": "contact",
+        "modules": [
+          {
+            "type": "links",
+            "items": [
+              {
+                "text": "email",
+                "href": "mailto:hello@officeca.com"
+              },
+              {
+                "text": "instagram",
+                "href": "https://instagram.com/officeca"
+              },
+              {
+                "text": "twitter",
+                "href": "https://x.com/office__ca"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Work",
+    "layout": "full",
+    "slots": [
+      {
+        "label": "projects",
+        "modules": [
+          {
+            "type": "projects",
+            "tags": [],
+            "limit": 100,
+            "columns": 2
+          }
+        ]
+      }
+    ]
+  },
+  "project": {
+    "title": "project",
+    "layout": "full",
+    "slots": [
+      {
+        "label": "",
+        "modules": [
+          {
+            "type": "single-project",
+            "slug": ""
+          }
+        ]
+      }
+    ]
+  }
+}

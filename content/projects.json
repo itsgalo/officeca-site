@@ -1,0 +1,679 @@
+[
+  {
+    "id": "p-001",
+    "title": "computerizing architectural labor",
+    "year": "2026",
+    "tags": [
+      "exhibition"
+    ],
+    "description": "Exhibition on the history of CAD in architectural practice.",
+    "image": "projects/images/26_01_05.jpg",
+    "url": "#/project/computerizing-labor",
+    "images": [
+      "projects/images/26_01_05.jpg",
+      "projects/images/26_01_00.jpg",
+      "projects/images/26_01_01.jpg",
+      "projects/images/26_01_02.jpg",
+      "projects/images/26_01_03.jpg",
+      "projects/images/26_01_04.jpg",
+      "projects/images/26_01_06.jpg",
+      "projects/images/26_01_07.jpg"
+    ],
+    "slug": "computerizing-labor",
+    "fields": {}
+  },
+  {
+    "id": "p-msuum4am",
+    "slug": "flip",
+    "title": "flip!",
+    "year": "2025",
+    "tags": [
+      "installation"
+    ],
+    "description": "Installation for BuildFest '25 at the Bethel Woods Center for the Arts.",
+    "images": [
+      "projects/images/25_01_00.jpg",
+      "projects/images/25_01_01.jpg",
+      "projects/images/25_01_02.jpg",
+      "projects/images/25_01_03.jpg",
+      "projects/images/25_01_04.jpg",
+      "projects/images/25_01_05.jpg"
+    ],
+    "url": "#/project/flip",
+    "fields": {},
+    "image": "projects/images/25_01_00.jpg"
+  },
+  {
+    "id": "p-msv0cbvr",
+    "slug": "blocks",
+    "title": "blocks",
+    "year": "2024",
+    "tags": [
+      "installation"
+    ],
+    "description": "Installation for BuildFest '24 at the Bethel Woods Center for the Arts.",
+    "images": [
+      "projects/images/24_01_00.jpg",
+      "projects/images/24_01_01.jpg",
+      "projects/images/24_01_02.jpg",
+      "projects/images/24_01_03.jpg"
+    ],
+    "url": "#/project/blocks",
+    "fields": {},
+    "image": "projects/images/24_01_00.jpg"
+  },
+  {
+    "id": "p-msv2jhv8",
+    "slug": "lightweight-reconstruction",
+    "title": "lightweight reconstruction",
+    "year": "2024",
+    "tags": [
+      "software"
+    ],
+    "description": "Generative real-time software artwork based on the architectural theories of Gottfried Semper.",
+    "images": [
+      "projects/images/24_02_00.jpg",
+      "projects/images/24_02_01.jpg",
+      "projects/images/24_02_02.jpg",
+      "projects/images/24_02_03.jpg",
+      "projects/images/24_02_04.jpg",
+      "projects/images/24_02_05.jpg",
+      "projects/images/24_02_06.jpg"
+    ],
+    "url": "#/project/lightweight-reconstruction",
+    "fields": {},
+    "image": "projects/images/24_02_00.jpg"
+  },
+  {
+    "id": "p-msvxywxl",
+    "slug": "lightweight-deconstruction",
+    "title": "lightweight deconstruction",
+    "year": "2024",
+    "tags": [
+      "software"
+    ],
+    "description": "Generative digital artwork exhibited at the 2024 Responsive Dreams festival in Barcelona, Spain. Curated by The Generative Art Museum.",
+    "images": [
+      "projects/images/24_03_04.jpg",
+      "projects/images/24_03_01.jpg",
+      "projects/images/24_03_02.jpg",
+      "projects/images/24_03_03.jpg",
+      "projects/images/24_03_05.jpg",
+      "projects/images/24_03_06.jpg"
+    ],
+    "url": "#/project/lightweight-deconstruction",
+    "fields": {},
+    "image": "projects/images/24_03_04.jpg"
+  },
+  {
+    "id": "p-msv0vy18",
+    "slug": "mass-support",
+    "title": "mass support",
+    "year": "2023",
+    "tags": [
+      "exhibition"
+    ],
+    "description": "Design for an exhibition on the history of the Stichting Architecten Research (SAR) and self-built housing.",
+    "images": [
+      "projects/images/23_01_00.jpg",
+      "projects/images/23_01_01.jpg",
+      "projects/images/23_01_02.jpg",
+      "projects/images/23_01_03.jpg",
+      "projects/images/23_01_04.jpg",
+      "projects/images/23_01_05.jpg"
+    ],
+    "url": "#/project/mass-support",
+    "fields": {},
+    "image": "projects/images/23_01_00.jpg"
+  },
+  {
+    "id": "p-msvylbrv",
+    "slug": "peace-love",
+    "title": "peace, love, shimmer",
+    "year": "2023",
+    "tags": [
+      "installation"
+    ],
+    "description": "Public installation built at the Bethel Woods Art & Architecture Festival 2023.",
+    "images": [
+      "projects/images/23_02_01.jpg",
+      "projects/images/23_02_02.jpg",
+      "projects/images/23_02_03.jpg",
+      "projects/images/23_02_04.jpg",
+      "projects/images/23_02_05.jpg",
+      "projects/images/23_02_06.jpg",
+      "projects/images/23_02_07.jpg"
+    ],
+    "url": "#/project/peace-love",
+    "fields": {},
+    "image": "projects/images/23_02_01.jpg"
+  },
+  {
+    "id": "p-msvw9htn",
+    "slug": "stacks",
+    "title": "stacks",
+    "year": "2022",
+    "tags": [
+      "software"
+    ],
+    "description": "Generative digital artwork based on architectural forms.",
+    "images": [
+      "projects/images/22_01_04.png",
+      "projects/images/22_01_01.png",
+      "projects/images/22_01_02.png",
+      "projects/images/22_01_03.png",
+      "projects/images/22_01_05.png",
+      "projects/images/22_01_06.png",
+      "projects/images/22_01_07.png",
+      "projects/images/22_01_08.png"
+    ],
+    "url": "#/project/stacks",
+    "fields": {},
+    "image": "projects/images/22_01_04.png"
+  },
+  {
+    "id": "p-msvxi9y6",
+    "slug": "fields",
+    "title": "fields",
+    "year": "2022",
+    "tags": [
+      "public art"
+    ],
+    "description": "Mural for the Ilini Dad's Plaza at the University of Illinois Urbana-Champaign.",
+    "images": [
+      "projects/images/22_02_05.jpg",
+      "projects/images/22_02_06.jpg",
+      "projects/images/22_02_04.jpg",
+      "projects/images/22_02_01.jpg",
+      "projects/images/22_02_02.jpg",
+      "projects/images/22_02_03.jpg"
+    ],
+    "url": "#/project/fields",
+    "fields": {},
+    "image": "projects/images/22_02_05.jpg"
+  },
+  {
+    "id": "p-001",
+    "slug": "nfthouse1",
+    "title": "nft house 01",
+    "year": "2021",
+    "tags": [
+      "residential"
+    ],
+    "description": "The first house design minted on the Tezos blockchain.",
+    "url": "#/project/nfthouse1",
+    "fields": {},
+    "images": [
+      "projects/images/21_01_03.jpg",
+      "projects/images/21_01_01.jpg",
+      "projects/images/21_01_02.jpg",
+      "projects/images/21_01_04.jpg",
+      "projects/images/21_01_05.jpg",
+      "projects/images/21_01_06.jpg"
+    ],
+    "image": "projects/images/21_01_03.jpg"
+  },
+  {
+    "id": "p-msvvkw4v",
+    "slug": "lightweight-construction",
+    "title": "lightweight construction",
+    "year": "2021",
+    "tags": [
+      "installation"
+    ],
+    "description": "Architectural installation at the Wedge Gallery at Woodbury University.",
+    "images": [
+      "projects/images/21_02_01.jpg",
+      "projects/images/21_02_02.jpg",
+      "projects/images/21_02_03.jpg",
+      "projects/images/21_02_04.jpg",
+      "projects/images/21_02_05.jpg",
+      "projects/images/21_02_06.jpg"
+    ],
+    "url": "#/project/lightweight-construction",
+    "fields": {},
+    "image": "projects/images/21_02_01.jpg"
+  },
+  {
+    "id": "p-msvvoflf",
+    "slug": "homegrown",
+    "title": "homegrown",
+    "year": "2021",
+    "tags": [
+      "residential",
+      "unbuilt"
+    ],
+    "description": "Competition entry for the 2021 NextHome affordable housing competition.",
+    "images": [
+      "projects/images/21_03_08.jpg",
+      "projects/images/21_03_02.jpg",
+      "projects/images/21_03_01.jpg",
+      "projects/images/21_03_03.jpg",
+      "projects/images/21_03_04.jpg",
+      "projects/images/21_03_05.jpg",
+      "projects/images/21_03_06.jpg",
+      "projects/images/21_03_07.jpg"
+    ],
+    "url": "#/project/homegrown",
+    "fields": {},
+    "image": "projects/images/21_03_08.jpg"
+  },
+  {
+    "id": "p-003",
+    "slug": "ourpaper-space",
+    "title": "ourpaper.space",
+    "year": "2020",
+    "tags": [
+      "website"
+    ],
+    "description": "A collaborative drawing web app and public art installation at the School of the Art Institute of Chicago.",
+    "url": "#/project/ourpaper-space",
+    "fields": {},
+    "images": [
+      "projects/images/20_01_01.jpg",
+      "projects/images/20_01_02.jpg",
+      "projects/images/20_01_03.jpg",
+      "projects/images/20_01_04.jpg"
+    ],
+    "image": "projects/images/20_01_01.jpg"
+  },
+  {
+    "id": "p-004",
+    "slug": "adscenes",
+    "title": "assorted demo scenes",
+    "year": "2019",
+    "tags": [
+      "installation"
+    ],
+    "description": "A gallery show.",
+    "url": "#/project/adscenes",
+    "fields": {},
+    "images": [
+      "projects/images/19_01_01.jpg",
+      "projects/images/19_01_02.jpg",
+      "projects/images/19_01_03.jpg",
+      "projects/images/19_01_04.jpg",
+      "projects/images/19_01_05.jpg",
+      "projects/images/19_01_06.jpg",
+      "projects/images/19_01_07.jpg",
+      "projects/images/19_01_08.jpg",
+      "projects/images/19_01_09.jpg"
+    ],
+    "image": "projects/images/19_01_01.jpg"
+  },
+  {
+    "id": "p-005",
+    "slug": "handlewcare",
+    "title": "handle with care",
+    "year": "2019",
+    "tags": [
+      "prototype"
+    ],
+    "description": "A collection of door handles.",
+    "url": "#/project/handlewcare",
+    "fields": {},
+    "images": [
+      "projects/images/19_04_01.jpg",
+      "projects/images/19_04_02.jpg",
+      "projects/images/19_04_03.jpg"
+    ],
+    "image": "projects/images/19_04_01.jpg"
+  },
+  {
+    "id": "p-006",
+    "slug": "44house",
+    "title": "4x4 house",
+    "year": "2019",
+    "tags": [
+      "speculative"
+    ],
+    "description": "A dynamic domestic environment.",
+    "url": "#/project/44house",
+    "fields": {},
+    "images": [
+      "projects/images/19_02_03.jpg",
+      "projects/images/19_02_01.jpg",
+      "projects/images/19_02_02.jpg",
+      "projects/images/19_02_04.jpg",
+      "projects/images/19_02_05.jpg",
+      "projects/images/19_02_06.jpg",
+      "projects/images/19_02_07.jpg",
+      "projects/images/19_02_08.jpg",
+      "projects/images/19_02_09.jpg",
+      "projects/images/19_02_10.jpg",
+      "projects/images/19_02_11.jpg",
+      "projects/images/19_02_12.jpg"
+    ],
+    "image": "projects/images/19_02_03.jpg"
+  },
+  {
+    "id": "p-007",
+    "slug": "dfab",
+    "title": "digital fabrications",
+    "year": "2019",
+    "tags": [
+      "book"
+    ],
+    "description": "A collection of essays on software and design.",
+    "url": "#/project/dfab",
+    "fields": {},
+    "images": [
+      "projects/images/19_03_02.jpg",
+      "projects/images/19_03_01.jpg",
+      "projects/images/19_03_03.jpg",
+      "projects/images/19_03_04.jpg",
+      "projects/images/19_03_05.jpg",
+      "projects/images/19_03_06.jpg"
+    ],
+    "image": "projects/images/19_03_02.jpg"
+  },
+  {
+    "id": "p-008",
+    "slug": "nsoup",
+    "title": "noodle soup",
+    "year": "2018",
+    "tags": [
+      "installation"
+    ],
+    "description": "A movable landscape and performance space.",
+    "url": "#/project/nsoup",
+    "fields": {},
+    "images": [
+      "projects/images/18_01_02.jpg",
+      "projects/images/18_01_01.jpg",
+      "projects/images/18_01_03.jpg",
+      "projects/images/18_01_04.jpg",
+      "projects/images/18_01_05.jpg",
+      "projects/images/18_01_06.jpg",
+      "projects/images/18_01_07.jpg",
+      "projects/images/18_01_08.jpg",
+      "projects/images/18_01_09.jpg"
+    ],
+    "image": "projects/images/18_01_02.jpg"
+  },
+  {
+    "id": "p-009",
+    "slug": "fscale",
+    "title": "for scale",
+    "year": "2018",
+    "tags": [
+      "software"
+    ],
+    "description": "An interactive furniture simulation.",
+    "url": "#/project/fscale",
+    "fields": {},
+    "images": [
+      "projects/images/18_02_01.jpg",
+      "projects/images/18_02_02.jpg",
+      "projects/images/18_02_03.jpg",
+      "projects/images/18_02_04.jpg",
+      "projects/images/18_02_05.jpg",
+      "projects/images/18_02_06.jpg"
+    ],
+    "image": "projects/images/18_02_01.jpg"
+  },
+  {
+    "id": "p-010",
+    "slug": "malevich",
+    "title": "malevi.ch",
+    "year": "2018",
+    "tags": [
+      "website"
+    ],
+    "description": "A suprematist drawing app.",
+    "url": "#/project/malevich",
+    "fields": {},
+    "images": [
+      "projects/images/18_03_01.png",
+      "projects/images/18_03_02.png",
+      "projects/images/18_03_03.png",
+      "projects/images/18_03_04.png",
+      "projects/images/18_03_05.png",
+      "projects/images/18_03_06.png",
+      "projects/images/18_03_07.png",
+      "projects/images/18_03_08.png"
+    ],
+    "image": "projects/images/18_03_01.png"
+  },
+  {
+    "id": "p-011",
+    "slug": "aseries",
+    "title": "a series of UOs",
+    "year": "2017",
+    "tags": [
+      "installation"
+    ],
+    "description": "A science fiction simulation performance.",
+    "url": "#/project/aseries",
+    "fields": {},
+    "images": [
+      "projects/images/17_02_01.jpg",
+      "projects/images/17_02_02.jpg",
+      "projects/images/17_02_03.jpg",
+      "projects/images/17_02_04.jpg",
+      "projects/images/17_02_05.jpg",
+      "projects/images/17_02_06.jpg",
+      "projects/images/17_02_07.jpg",
+      "projects/images/17_02_08.jpg",
+      "projects/images/17_02_09.jpg"
+    ],
+    "image": "projects/images/17_02_01.jpg"
+  },
+  {
+    "id": "p-012",
+    "slug": "lissitzky-xyz",
+    "title": "lissitzky.xyz",
+    "year": "2017",
+    "tags": [
+      "website"
+    ],
+    "description": "A suprematist drawing app.",
+    "url": "#/project/lissitzky-xyz",
+    "fields": {},
+    "images": [
+      "projects/images/17_04_01.jpg",
+      "projects/images/17_04_02.jpg",
+      "projects/images/17_04_03.jpg",
+      "projects/images/17_04_04.jpg",
+      "projects/images/17_04_05.jpg",
+      "projects/images/17_04_06.jpg",
+      "projects/images/17_04_07.jpg",
+      "projects/images/17_04_08.jpg",
+      "projects/images/17_04_09.jpg"
+    ],
+    "image": "projects/images/17_04_01.jpg"
+  },
+  {
+    "id": "p-013",
+    "slug": "someshap-es",
+    "title": "someshap.es",
+    "year": "2017",
+    "tags": [
+      "website"
+    ],
+    "description": "An online physics experiment.",
+    "url": "#/project/someshap-es",
+    "fields": {},
+    "images": [
+      "projects/images/17_06_03.jpg",
+      "projects/images/17_06_02.jpg",
+      "projects/images/17_06_01.jpg",
+      "projects/images/17_06_04.jpg"
+    ],
+    "image": "projects/images/17_06_03.jpg"
+  },
+  {
+    "id": "p-014",
+    "slug": "theorymachina",
+    "title": "@theorymachina",
+    "year": "2017",
+    "tags": [
+      "bot"
+    ],
+    "description": "An architectural theory twitter bot.",
+    "url": "#/project/theorymachina",
+    "fields": {},
+    "images": [
+      "projects/images/17_03_01.jpg",
+      "projects/images/17_03_02.jpg",
+      "projects/images/17_03_03.jpg"
+    ],
+    "image": "projects/images/17_03_01.jpg"
+  },
+  {
+    "id": "p-015",
+    "slug": "3acts",
+    "title": "3 acts of #architecture",
+    "year": "2017",
+    "tags": [
+      "installation"
+    ],
+    "description": "A gallery show.",
+    "url": "#/project/3acts",
+    "fields": {},
+    "images": [
+      "projects/images/17_01_06.jpg",
+      "projects/images/17_01_05.jpg",
+      "projects/images/17_01_04.jpg",
+      "projects/images/17_01_03.jpg",
+      "projects/images/17_01_02.jpg",
+      "projects/images/17_01_01.jpg"
+    ],
+    "image": "projects/images/17_01_06.jpg"
+  },
+  {
+    "id": "p-016",
+    "slug": "fieldguide",
+    "title": "field guide to martian landscapes",
+    "year": "2017",
+    "tags": [
+      "installation"
+    ],
+    "description": "A gallery show.",
+    "url": "#/project/fieldguide",
+    "fields": {},
+    "images": [
+      "projects/images/17_05_03.jpg",
+      "projects/images/17_05_01.jpg",
+      "projects/images/17_05_02.jpg",
+      "projects/images/17_05_04.jpg",
+      "projects/images/17_05_05.jpg",
+      "projects/images/17_05_06.jpg"
+    ],
+    "image": "projects/images/17_05_03.jpg"
+  },
+  {
+    "id": "p-017",
+    "slug": "spaceoddity",
+    "title": "lefevre space oddity",
+    "year": "2016",
+    "tags": [
+      "installation"
+    ],
+    "description": "A science fiction performance.",
+    "url": "#/project/spaceoddity",
+    "fields": {},
+    "images": [
+      "projects/images/16_04_04.jpg",
+      "projects/images/16_04_01.jpg",
+      "projects/images/16_04_02.jpg",
+      "projects/images/16_04_03.jpg",
+      "projects/images/16_04_05.jpg",
+      "projects/images/16_04_07.jpg",
+      "projects/images/16_04_08.jpg",
+      "projects/images/16_04_09.jpg"
+    ],
+    "image": "projects/images/16_04_04.jpg"
+  },
+  {
+    "id": "p-018",
+    "slug": "kghosts",
+    "title": "killing ghosts",
+    "year": "2016",
+    "tags": [
+      "speculative"
+    ],
+    "description": "A collection of designer deaths.",
+    "url": "#/project/kghosts",
+    "fields": {},
+    "images": [
+      "projects/images/16_03_01.jpg",
+      "projects/images/16_03_02.jpg",
+      "projects/images/16_03_03.jpg",
+      "projects/images/16_03_04.jpg",
+      "projects/images/16_03_05.jpg",
+      "projects/images/16_03_06.jpg",
+      "projects/images/16_03_07.jpg",
+      "projects/images/16_03_08.jpg",
+      "projects/images/16_03_09.jpg",
+      "projects/images/16_03_10.jpg",
+      "projects/images/16_03_11.jpg",
+      "projects/images/16_03_12.jpg"
+    ],
+    "image": "projects/images/16_03_01.jpg"
+  },
+  {
+    "id": "p-020",
+    "slug": "reflector",
+    "title": "reflector",
+    "year": "2016",
+    "tags": [
+      "scenography"
+    ],
+    "description": "A material performance.",
+    "url": "#/project/reflector",
+    "fields": {},
+    "images": [
+      "projects/images/16_01_01.jpg",
+      "projects/images/16_01_02.jpg",
+      "projects/images/16_01_03.jpg",
+      "projects/images/16_01_04.jpg",
+      "projects/images/16_01_05.jpg",
+      "projects/images/16_01_06.jpg",
+      "projects/images/16_01_07.jpg",
+      "projects/images/16_01_08.jpg",
+      "projects/images/16_01_09.jpg"
+    ],
+    "image": "projects/images/16_01_01.jpg"
+  },
+  {
+    "id": "p-msvvzjx0",
+    "slug": "ghosts",
+    "title": "ghosts",
+    "year": "2016",
+    "tags": [
+      "study"
+    ],
+    "description": "A study of combinatory vernacular forms.",
+    "images": [
+      "projects/images/16_05_01.jpg",
+      "projects/images/16_05_02.jpg",
+      "projects/images/16_05_03.jpg",
+      "projects/images/16_05_04.jpg"
+    ],
+    "url": "#/project/ghosts",
+    "fields": {},
+    "image": "projects/images/16_05_01.jpg"
+  },
+  {
+    "id": "p-019",
+    "slug": "blue",
+    "title": "blue, a set design",
+    "year": "2015",
+    "tags": [
+      "scenography"
+    ],
+    "description": "A scenogrpahic environment for a documentary play.",
+    "url": "#/project/blue",
+    "fields": {},
+    "images": [
+      "projects/images/16_02_01.jpg",
+      "projects/images/16_02_02.jpg",
+      "projects/images/16_02_03.jpg",
+      "projects/images/16_02_04.jpg",
+      "projects/images/16_02_05.jpg",
+      "projects/images/16_02_06.jpg"
+    ],
+    "image": "projects/images/16_02_01.jpg"
+  }
+]

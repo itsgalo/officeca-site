@@ -1,0 +1,43 @@
+{
+  "quad": {
+    "grid": "1fr 1fr / 1fr 1fr",
+    "slots": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "triptych": {
+    "grid": "1fr / 1fr 1fr 1fr",
+    "slots": [
+      {},
+      {},
+      {}
+    ]
+  },
+  "split": {
+    "grid": "1fr / 2fr 1fr",
+    "slots": [
+      {
+        "columns": 2
+      },
+      {}
+    ]
+  },
+  "rows": {
+    "grid": "auto 1fr / 1fr",
+    "slots": [
+      {},
+      {
+        "columns": 2
+      }
+    ]
+  },
+  "full": {
+    "grid": "1fr / 1fr",
+    "slots": [
+      {}
+    ]
+  }
+}

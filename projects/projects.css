@@ -1,0 +1,255 @@
+/* ============================================
+   OFFICE CA SYS — /projects editor stylesheet
+   key/value table look: hairline rules, edge-to-edge,
+   monospace, no radius, no shadows. one accent.
+   ============================================ */
+
+:root {
+  --bg:     #f2f2ef;
+  --panel:  #ffffff;
+  --ink:    #171716;
+  --muted:  #8b8b84;
+  --rule:   #d6d6d0;
+  --accent: #1f4fff;
+  --danger: #c92a1e;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 12px/1.5 var(--mono);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- toolbar (apply / export / discard) ---------- */
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--ink);
+  background: var(--panel);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+header h1 {
+  margin: 0 auto 0 0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+#editor {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px 14px 80px;
+}
+
+/* ---------- blocks ---------- */
+
+/* a-slot = one record / one section. edge-to-edge rules inside,
+   so children get border-top and the slot itself owns the frame. */
+.a-slot {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  margin: 0 0 14px;
+}
+
+.a-slot .a-slot {              /* nested (images block): rule, not frame */
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 0;
+}
+
+.a-row,
+.a-field {
+  border-top: 1px solid var(--rule);
+}
+
+.a-slot > :first-child,
+.a-slot .a-slot > :first-child {
+  border-top: 0;
+}
+
+/* ---------- rows ---------- */
+
+.a-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  min-height: 34px;
+}
+
+.a-row strong {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-right: auto;          /* pushes ids/buttons to the right edge */
+}
+
+.a-row input,
+.a-row select {
+  flex: 1;
+}
+
+.a-id {
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+/* ---------- fields: label column | control column ---------- */
+
+.a-field {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  align-items: start;
+}
+
+.a-field > span {
+  padding: 9px 10px;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-right: 1px solid var(--rule);
+}
+
+/* ---------- controls ---------- */
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  color: inherit;
+  border-radius: 0;
+}
+
+input,
+textarea,
+select {
+  border: 0;                   /* the grid rules do the framing */
+  background: transparent;
+  padding: 8px 10px;
+  width: 100%;
+  min-width: 0;
+}
+
+.a-row input,
+.a-row select {                /* controls inside flex rows keep a border */
+  border: 1px solid var(--rule);
+  background: var(--panel);
+  padding: 5px 8px;
+  width: auto;
+}
+
+textarea {
+  resize: vertical;
+  line-height: 1.6;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 1px solid var(--accent);
+  outline-offset: -1px;
+}
+
+input[type="file"][hidden] { display: none; }
+
+/* ---------- buttons ---------- */
+
+button {
+  border: 1px solid var(--ink);
+  background: var(--panel);
+  padding: 4px 10px;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  flex: none;
+  transition: background 80ms linear, color 80ms linear;
+}
+
+button:hover:not(:disabled) {
+  background: var(--ink);
+  color: var(--panel);
+}
+
+button:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 1px;
+}
+
+button:disabled {
+  border-color: var(--rule);
+  color: var(--rule);
+  cursor: default;
+}
+
+#apply {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+#apply:hover { background: var(--ink); border-color: var(--ink); }
+
+#discard:hover:not(:disabled) {
+  background: var(--danger);
+  border-color: var(--danger);
+}
+
+/* compact square buttons: × and ↑ */
+.a-row button[title="move up"],
+.a-row button:last-child {
+  min-width: 26px;
+  padding: 4px 0;
+  text-align: center;
+}
+
+/* ---------- image rows + thumbnail ---------- */
+
+.a-thumb {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  flex: none;
+  border: 1px solid var(--rule);
+  /* checkerboard so transparent pngs read as images, not gaps */
+  background:
+    conic-gradient(var(--rule) 25%, transparent 0 50%,
+                   var(--rule) 0 75%, transparent 0)
+    0 0 / 12px 12px;
+}
+
+/* ---------- small screens ---------- */
+
+@media (max-width: 560px) {
+  .a-field {
+    grid-template-columns: 1fr;
+  }
+  .a-field > span {
+    border-right: 0;
+    padding-bottom: 0;
+  }
+  .a-row { flex-wrap: wrap; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}

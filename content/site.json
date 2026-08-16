@@ -1,0 +1,17 @@
+{
+  "title": "office ca web system v.2.0",
+  "nav": [
+    {
+      "path": "/",
+      "label": "home"
+    },
+    {
+      "path": "/about",
+      "label": "about"
+    },
+    {
+      "path": "/work",
+      "label": "work"
+    }
+  ]
+}
