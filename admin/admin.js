@@ -1,5 +1,5 @@
 // ============================================
-// OFFICE CA SYS admin — edits a draft of {site, layouts, pages, projects}
+// OFFICE CA SYS admin — edits a draft of {site, layouts, pages}
 // in localStorage. Lives in /admin, so all site paths are ../
 //
 // Editing model:
@@ -58,16 +58,12 @@ const Admin = {
     const draft = localStorage.getItem(DRAFT_KEY);
     if (draft) {
       this.data = JSON.parse(draft);
-      // migrate drafts saved before the projects database existed
-      if (!this.data.projects) {
-        this.data.projects = await fetchJSON("projects").catch(() => []);
-        this.save();
-      }
+      delete this.data.projects;   // scrub stale key from drafts saved by the old admin
     } else {
-      const [site, layouts, pages, projects] = await Promise.all(
-        ["site", "layouts", "pages", "projects"].map(fetchJSON)
+      const [site, layouts, pages] = await Promise.all(
+        ["site", "layouts", "pages"].map(fetchJSON)
       );
-      this.data = { site, layouts, pages, projects };
+      this.data = { site, layouts, pages };
       this.save();   // seed the draft so the preview iframe has data
     }
 
@@ -111,8 +107,7 @@ const Admin = {
     const files = {
       "site.json": this.data.site,
       "layouts.json": this.data.layouts,
-      "pages.json": this.data.pages,
-      "projects.json": this.data.projects
+      "pages.json": this.data.pages
     };
     Object.entries(files).forEach(([name, obj], i) => {
       setTimeout(() => {
@@ -135,53 +130,8 @@ const Admin = {
     ed.appendChild({
       pages: this.renderPages,
       layouts: this.renderLayouts,
-      projects: this.renderProjects,
       site: this.renderSite
     }[this.tab].call(this));
-  },
-
-  // ---------- projects (form editor) ----------
-  renderProjects() {
-    const list = (this.data.projects ||= []);
-    const panel = el("div", { class: "panel" });
-
-    list.forEach((p, i) => {
-      const box = el("div", { class: "a-slot" });
-      box.append(
-        row(
-          el("strong", {}, p.title || `project ${i + 1}`),
-          el("span", { class: "a-id" }, p.id || ""),
-          el("button", { title: "move up", disabled: i === 0,
-            onclick: () => { [list[i - 1], list[i]] = [list[i], list[i - 1]]; this.render(); } }, "↑"),
-          el("button", { onclick: () => {
-            if (confirm(`Delete "${p.title || "project"}"?`)) { list.splice(i, 1); this.render(); }
-          } }, "×")
-        ),
-        field("title", el("input", { value: p.title || "",
-          onchange: (e) => { p.title = e.target.value; } })),
-        field("year", el("input", { value: p.year || "", size: 8,
-          onchange: (e) => { p.year = e.target.value; } })),
-        field("tags", el("input", { value: (p.tags || []).join(", "), placeholder: "comma, separated",
-          onchange: (e) => {
-            p.tags = e.target.value.split(",").map((s) => s.trim()).filter(Boolean);
-          } })),
-        field("image", el("input", { value: p.image || "", placeholder: "url",
-          onchange: (e) => { p.image = e.target.value; } })),
-        field("url", el("input", { value: p.url || "", placeholder: "https://… (optional)",
-          onchange: (e) => { p.url = e.target.value; } })),
-        field("desc", el("textarea", { rows: 3, value: p.description || "",
-          onchange: (e) => { p.description = e.target.value; } }))
-      );
-      panel.append(box);
-    });
-
-    panel.append(row(el("button", { onclick: () => {
-      list.push({ id: `p-${Date.now().toString(36)}`, title: "", year: "", tags: [],
-                  description: "", image: "", url: "" });
-      this.render();
-    } }, "+ project")));
-
-    return panel;
   },
 
   // ---------- pages ----------

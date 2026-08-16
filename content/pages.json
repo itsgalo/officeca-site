@@ -83,9 +83,9 @@
             "interval": 3000,
             "caption": "projects, 2025–26",
             "images": [
-              "/projects/images/26_01_00.jpg",
-              "/projects/images/26_01_05.jpg",
-              "/projects/images/25_01_03.jpg"
+              "projects/images/26_01_00.jpg",
+              "projects/images/26_01_05.jpg",
+              "projects/images/25_01_03.jpg"
             ]
           }
         ]
