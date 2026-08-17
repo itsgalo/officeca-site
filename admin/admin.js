@@ -25,6 +25,7 @@ const SNIPPETS = {
   "single-project": { type: "single-project", slug: "" },
   "projects-list": { type: "projects-list", sort: "year" },
   slideshow: { type: "slideshow", interval: 3000, caption: "caption...", images: ["image.png", "image.png"]},
+  iframe: { type: "iframe", src: "https://example.com", title: "demo" },
   "widget-clock": { type: "widget-clock" }
 };
 
@@ -64,8 +65,9 @@ const Admin = {
         ["site", "layouts", "pages"].map(fetchJSON)
       );
       this.data = { site, layouts, pages };
-      this.save();   // seed the draft so the preview iframe has data
     }
+    this.data.projects = await fetchJSON("projects");
+    this.save();
 
     document.querySelectorAll("#nav [data-tab]").forEach((b) =>
       b.addEventListener("click", () => { this.tab = b.dataset.tab; this.render(); })

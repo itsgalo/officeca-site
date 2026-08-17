@@ -4,10 +4,32 @@
     "layout": "quad",
     "slots": [
       {
-        "label": "log",
+        "label": "info",
         "modules": [
           {
-            "type": "widget-clock"
+            "type": "kv",
+            "pairs": [
+              [
+                "name",
+                "office ca"
+              ],
+              [
+                "services",
+                "architecture, interiors, installations, public art, creative apps, design research"
+              ],
+              [
+                "legal",
+                "limited liability company"
+              ],
+              [
+                "place",
+                "lexington, KY"
+              ],
+              [
+                "since",
+                "2014"
+              ]
+            ]
           },
           {
             "type": "typing",
@@ -46,32 +68,12 @@
         ]
       },
       {
-        "label": "info",
+        "label": "play",
         "modules": [
           {
-            "type": "kv",
-            "pairs": [
-              [
-                "name",
-                "office ca"
-              ],
-              [
-                "services",
-                "architecture, interiors, installations, public art, creative apps, design research"
-              ],
-              [
-                "legal",
-                "limited liability company"
-              ],
-              [
-                "place",
-                "lexington, KY"
-              ],
-              [
-                "since",
-                "2014"
-              ]
-            ]
+            "type": "iframe",
+            "src": "https://someblob.art",
+            "title": "demo"
           }
         ]
       },
@@ -81,7 +83,7 @@
           {
             "type": "slideshow",
             "interval": 3000,
-            "caption": "projects, 2025–26",
+            "caption": "projects, 2024–26",
             "images": [
               "projects/images/26_01_05.jpg",
               "projects/images/25_01_03.jpg",

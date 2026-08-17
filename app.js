@@ -81,6 +81,18 @@ const renderers = {
     return el;
   },
 
+  iframe(m) {
+    const el = document.createElement("div");
+    el.className = "m-iframe";
+    const f = document.createElement("iframe");
+    f.src = m.src;
+    f.title = m.title || "";
+    f.loading = "lazy";
+    if (m.allow) f.allow = m.allow;           // e.g. "fullscreen; autoplay"
+    el.appendChild(f);
+    return el;
+  },
+
   links(m) {
     const el = document.createElement("ul");
     el.className = "m-links";
