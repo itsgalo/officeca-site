@@ -81,11 +81,11 @@
           {
             "type": "slideshow",
             "interval": 3000,
-            "caption": "projects, 2024–26",
+            "caption": "projects, 2025–26",
             "images": [
-              "projects/images/26_01_00.jpg",
               "projects/images/26_01_05.jpg",
               "projects/images/25_01_03.jpg",
+              "projects/images/24_02_05.jpg",
               "projects/images/24_03_04.jpg"
             ]
           }
