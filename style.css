@@ -170,6 +170,7 @@ body {
   height: 100%;
   border: 0;
   display: block;
+  filter: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><filter id="n" x="0" y="0" width="100%25" height="100%25"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch" result="n"/><feBlend in="SourceGraphic" in2="n" mode="overlay"/></filter></svg>#n');
 }
 
 .m-links, .m-list { list-style: none; }
