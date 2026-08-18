@@ -25,7 +25,7 @@ const SNIPPETS = {
   "single-project": { type: "single-project", slug: "" },
   "projects-list": { type: "projects-list", sort: "year" },
   slideshow: { type: "slideshow", interval: 3000, caption: "caption...", images: ["image.png", "image.png"]},
-  iframe: { type: "iframe", src: "https://example.com", title: "demo" },
+  iframe: { type: "iframe", src: ["https://example.com"], title: "demo" },
   "widget-clock": { type: "widget-clock" }
 };
 

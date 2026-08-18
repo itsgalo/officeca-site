@@ -68,11 +68,13 @@
         ]
       },
       {
-        "label": "play",
+        "label": "toybox",
         "modules": [
           {
             "type": "iframe",
-            "src": "https://someblob.art",
+            "src": [
+              "toybox/index.html"
+            ],
             "title": "demo"
           }
         ]

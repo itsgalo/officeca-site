@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>GAMERS by itsgalo</title>
+  <script>
+  let defined_hash = new URLSearchParams(window.location.search).get("hash");
+  let tokenData = {
+    tokenId: "422000000",
+    hash: defined_hash || "0x" + Array.from({length: 64}, () =>
+      "0123456789abcdef"[Math.floor(Math.random() * 16)]).join(""),
+  };
+  </script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      touch-action: none;
+      user-select: none; /* supported by Chrome and Opera */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff; /* Optional background color */
+    }
+    canvas {
+      display: block;
+      transform: scale(1);
+      transform-origin: center;
+      image-rendering: pixelated;
+    }
+  </style>
+</head>
+
+<body>
+  <pre id="stats" style="position: absolute; top: 0; left: 0; z-index: 999;"></pre>
+  <canvas id="canvasGL" style="display: none;"></canvas>
+  <canvas id="canvas2D"></canvas>
+</body>
+
+<script src="./bundle.js" type="module"></script>
+
+</html>
